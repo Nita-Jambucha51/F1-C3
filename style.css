@@ -1,11 +1,16 @@
 * {
   margin: 20px;
+  /* position:relative; */
 }
 
 .navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(243, 247, 243);
 }
 
 #d {
@@ -15,23 +20,26 @@
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
-  width: 25px;
+  text-align: center;
+
   padding: 4px;
   letter-spacing: -0.3px;
   color: white;
   height: 28px;
   margin: 10px;
   margin-left: none;
+  width: 30px;
+  border-radius: 5px;
 }
 
 #fdel {
   color: #f94a3d;
   font-family: Poppins;
   font-size: 30px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 93.333% */
+  line-height: 28px;
   letter-spacing: -0.3px;
+
   width: 140px;
   padding: 4px;
   margin: 10px;
@@ -168,23 +176,17 @@ ul > li {
   line-height: normal;
 }
 
-
-
 #section22 > ul > li {
   list-style: none;
   display: inline-block;
   font-family: Poppins;
   font-size: 22px;
-  
 }
 
-#section22>ul{
-    margin: auto;74
-    4  
+#section22 > ul {
+  margin: auto;
 }
 
-
- 
 #section23 {
   display: flex;
   flex-direction: row;
@@ -206,7 +208,7 @@ ul > li {
   height: 250px;
   width: 250px;
   border-radius: 20px;
-  margin:auto;
+  margin: auto;
 }
 
 .item-name {
@@ -220,7 +222,7 @@ ul > li {
 .ratings {
   width: 90px;
   height: 40px;
-  margin:auto;
+  margin: auto;
 }
 
 .pri {
@@ -237,23 +239,82 @@ ul > li {
   color: #f94a3d;
 }
 
-.add-to-cart{
-    color: #f94a3d;
-    border-radius: 5px;
-    font-size: 14px;
-    border-color: #f94a3d;
-    background-color: white;
-    width: 5vw;
-    margin: auto;
-    padding: 5px;
+.add-to-cart {
+  color: #f94a3d;
+  border-radius: 5px;
+  font-size: 14px;
+  border-color: #f94a3d;
+  background-color: white;
+  width: 5vw;
+  margin: auto;
+  padding: 5px;
 }
 
-.add-to-cart:hover{
-    background-color: rgb(172, 82, 31);
-    cursor: pointer;
+.add-to-cart:hover {
+  background-color: rgb(172, 82, 31);
+  cursor: pointer;
 }
 
-#selected-item{
-    background-color: #f94a3d;
-    color:white;
+#selected-item {
+  background-color: #f94a3d;
+  color: white;
+}
+
+footer {
+  display: flex;
+  background-color: gainsboro;
+}
+
+.footer1{
+    display:flex;
+    flex-direction: column;
+}
+
+#df {
+  background-color: #f94a3d;
+  font-weight: 700;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+}
+
+#fd {
+  color: #f94a3d;
+  font-weight: 700;
+}
+
+#retail {
+  color: var(--food-delivery-p, #69697b);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  letter-spacing: -0.16px;
+}
+
+
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.footer2 > a {
+  text-decoration: none;
+  color: #69697b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer2>p{
+color:  #212244;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
 }
