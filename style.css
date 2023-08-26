@@ -1,0 +1,259 @@
+* {
+  margin: 20px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#d {
+  background-color: #f94a3d;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  width: 25px;
+  padding: 4px;
+  letter-spacing: -0.3px;
+  color: white;
+  height: 28px;
+  margin: 10px;
+  margin-left: none;
+}
+
+#fdel {
+  color: #f94a3d;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 93.333% */
+  letter-spacing: -0.3px;
+  width: 140px;
+  padding: 4px;
+  margin: 10px;
+}
+
+ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+#search {
+  height: 28px;
+  margin: 10px;
+}
+
+.section-1 {
+  display: flex;
+  background-color: rgba(249, 74, 61, 0.07);
+}
+
+#col-1 {
+  flex: 2;
+  align-items: center;
+}
+#faster {
+  width: 229px;
+  height: 46px;
+  font-size: larger;
+}
+
+.icon {
+  /* background-image: url(./french-fries.jpg); */
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+
+#main-msg {
+  color: #212244;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+#hunger-companion {
+  color: #69697b;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#explore {
+  background-color: #f94a3d;
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+  border: none;
+  width: 174px;
+  height: 60px;
+  font-family: Poppins;
+  font-size: 18px;
+}
+#empty {
+  flex: 1;
+}
+#cartoon {
+  flex: 2;
+  width: 856px;
+  height: 764px;
+  flex-shrink: 0;
+}
+
+/* section 2 */
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#best-in-town {
+  color: #212244;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  padding-top: 130px;
+  width: 20vw;
+}
+
+#healthy {
+  color: #69697b;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+#section2-id2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#section2-id2 > img,
+#section2-id3 > img,
+#section2-id4 > img {
+  height: 250px;
+  width: 250px;
+}
+
+#section2-id2 > p,
+#section2-id3 > p,
+#section2-id4 > p {
+  color: #212244;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+#recipes {
+  text-align: center;
+  color: #212244;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+
+#section22 > ul > li {
+  list-style: none;
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 22px;
+  
+}
+
+#section22>ul{
+    margin: auto;74
+    4  
+}
+
+
+ 
+#section23 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#section23-1,
+#section23-2,
+#section23-3,
+#section23-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#bhature,
+#lassi,
+#khichdi,
+#laddu {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  margin:auto;
+}
+
+.item-name {
+  color: #212244;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ratings {
+  width: 90px;
+  height: 40px;
+  margin:auto;
+}
+
+.pri {
+  color: var(--food-text-color-2, #69697b);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.price {
+  color: #f94a3d;
+}
+
+.add-to-cart{
+    color: #f94a3d;
+    border-radius: 5px;
+    font-size: 14px;
+    border-color: #f94a3d;
+    background-color: white;
+    width: 5vw;
+    margin: auto;
+    padding: 5px;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(172, 82, 31);
+    cursor: pointer;
+}
+
+#selected-item{
+    background-color: #f94a3d;
+    color:white;
+}
